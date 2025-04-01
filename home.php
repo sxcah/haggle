@@ -18,7 +18,9 @@
                 <p class="user"><a href="user_profile.php">
                     <?php echo htmlspecialchars($username); ?></a></p>
                 <?php if (isset($_SESSION['username'])): ?>
-                    <p><a href="api/logout_user.php">LOGOUT</a></p>
+                    <div class="logout">
+                        <p><a href="api/logout_user.php">LOGOUT</a></p>
+                    </div>
                 <?php else: ?>
                     <div class="link-group">
                         <a href="forms/login.php">LOGIN</a>

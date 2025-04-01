@@ -97,6 +97,19 @@ nav .title a {
     margin: 0 auto;
 }
 
+.logout {
+    text-align: right;
+}
+
+.logout a {
+    width: fit-content;
+
+    text-align: center;
+
+    color: #0A57C0;
+    text-decoration: none;
+}
+
 .user-profile-container {
     color: #FFFFFF;
 }

@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'google', sans-serif;
+}
+
+body {
+    background-color: #202020;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    width: 100%;
+}
+
+.container nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: #121212;
+
+    padding: 32px 0;
+}
+
+nav .title {
+    display: flex;
+    align-items: center;
+}
+
+nav .title a {
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.user-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-group .user {
+    margin-left: auto;
+}
+
+.user-group .link-group {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.user a{
+    font-size: 1rem;
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+.link-group a {
+    width: fit-content;
+
+    text-align: center;
+
+    color: #0A57C0;
+    text-decoration: none;
+}
+
+.divider {
+    background-color: #FFFFFF;
+
+    padding: 2px;
+
+    border-radius: 12px;
+}
+
+.main-container {
+    background-color: #151515;
+
+    max-width: 1440px;
+    min-width: 1440px;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    margin: 0 auto;
+}
+
+.user-profile-container {
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'google';
+    src: url(assets/fonts/google.TTF) format(truetype);
+}

@@ -3,7 +3,7 @@
 $server = "localhost";
 $db_name = "haggle_db";
 
-$user = "mikko_root";
+$user = "root";
 $password = "";
 
 $conn = new mysqli($server, $user, $password, $db_name);

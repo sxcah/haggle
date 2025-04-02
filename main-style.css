@@ -88,7 +88,7 @@ nav .title a {
     background-color: #151515;
 
     max-width: 1440px;
-    min-width: 1440px;
+    min-width: 920px;
 
     display: flex;
     flex-direction: column;
@@ -111,6 +111,74 @@ nav .title a {
 }
 
 .user-profile-container {
+    color: #FFFFFF;
+
+    padding: 16px 64px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.information-group {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.information-group .info-group {
+    max-width: calc(128px * 1.2);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.information-group .info-group .label {
+    background-color: #353535;
+
+    padding: 6px 12px;
+
+    border-radius: 12px;
+}
+
+.information-group .info-group p {
+    padding: 12px;
+
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.link-group {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+
+    gap: 16px;
+}
+
+.divider {
+    padding: 2px;
+}
+
+.main-container .content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    justify-content: flex-start;
+    gap: 32px;
+
+    padding: 16px;
+
+}
+
+.main-container .content .text-box {
+    display: flex;
+    flex-direction: column;
+
+    max-width: calc(128px * 4);
+
     color: #FFFFFF;
 }
 

@@ -30,6 +30,25 @@
                 <?php endif; ?>
             </div>
         </nav>
+
+        <div class="main-container">
+            <div class="content">
+                <div class="divider"></div>
+                <div class="text-box">
+                    <h2>Welcome to the website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid corrupti aliquam adipisci consectetur molestiae facilis soluta sunt quod maxime aspernatur id possimus quia labore laborum, magni magnam rerum iusto eum.</p>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="text-box">
+                    <h2>Sorry for the inconvinience</h2>
+                    <p>This site had come under some maintainance and will be unavailble for quite sometime, issue will be resolve at the end of the semester.</p>
+                </div>
+
+                <div class="divider"></div>
+            </div>
+        </div>
     </div>
 
 </body>

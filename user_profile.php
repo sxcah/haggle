@@ -20,20 +20,24 @@
             <div class="user-profile-container">
                 <div class="title-group">
                     <div class="title">
-                        <h2>Profile</h2>
+                        <h2>Your Profile</h2>
                     </div>
                 </div>
                 <div class="information-group">
-                    <div class="username">
+                    <div class="info-group">
+                        <div class="label">Username:</div>
                         <p><?php echo htmlspecialchars($username)?></p>
                     </div>
-                    <div class="email">
+                    <div class="info-group">
+                        <div class="label">Email:</div>
                         <p><?php echo htmlspecialchars($email)?></p>
                     </div>
-                    <div class="address">
+                    <div class="info-group">
+                        <div class="label">Address:</div>
                         <p><?php echo htmlspecialchars($address)?></p>
                     </div>
-                    <div class="contact-number">
+                    <div class="info-group">
+                        <div class="label">Contact Number:</div>  
                         <p><?php echo htmlspecialchars($contact_number)?></p>
                     </div>
                     <div class="link-group">
@@ -42,6 +46,7 @@
                         <?php else: ?>
                         <div class="link-group">
                             <a href="forms/login.php">LOGIN</a>
+                            <div class="divider"></div>
                             <a href="forms/register.php">SIGN-UP</a>
                         </div>
                         <?php endif; ?>

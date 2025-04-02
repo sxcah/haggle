@@ -19,7 +19,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error_message = "Invalid email format.";
     } elseif (strlen($contact_number) != 11) {
         $error_message = "Contact Number can only have 11 numbers";
-    } elseif ($password != $confirm_password) {
+    } elseif (strlen($password) < 8) {
+        $error_message = "Password must at least contain 8 characters.";
+    }
+    
+    elseif ($password != $confirm_password) {
         $error_message = "Passwords do not match.";
     } else {
 
